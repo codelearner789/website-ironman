@@ -1,0 +1,124 @@
+/*
+  Name: Brook Chen
+  Date: October 6th, 2018
+  Section: CSE 154 AL
+
+  This is the index.css file for my portfolio assignment in this class. It is used by my
+  portfolio to give the website its look, feel and style.
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("https://fonts.googleapis.com/css?family=Fahkwang");
+
+header img {
+  width: 630px;
+  height: 380px;
+  margin-bottom: 20px;
+}
+
+body {
+  width: 85%;
+  /*
+    Image Website: https://www.gludy.com/Marvel-logo-wallpaper
+    Image Source: https://images.gludy.com/photos/0/Marvel-logo-wallpaper_950.jpg
+  */
+  background-image: url(images/marvel-logo.jpg);
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-family: "Fira Sans", verdana, sans-serif;
+  font-size: 60pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: red;
+}
+
+h2, h3 {
+  color: green;
+  font-family: sans-serif;
+  font-size: 24pt;
+}
+
+h3 {
+  font-size: 17pt;
+}
+
+header, section, article, footer {
+  border: 3px dashed #d02859;
+  padding: 14px;
+  margin: 10px;
+  margin-left: 15px;
+  background-color: #afe9e9;
+  box-shadow: 5px 5px #8797d2;
+}
+
+p {
+  font-size: 14pt;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  display: flex;
+}
+
+#traits {
+  flex-basis: 57%;
+}
+
+#affiliation {
+  flex-basis: 43%;
+}
+
+#traits img {
+  height: 160px;
+  width: 300px;
+}
+
+#affiliation img {
+  height: 200px;
+  width: 260px;
+  margin-right: 4px;
+  margin-left: 3px;
+  margin-top: 14px;
+  float: right;
+}
+
+#more-info {
+  font-size: 16px;
+  clear: right;
+  padding-top: 18px;
+}
+
+#copy-right, blockquote, h1, article h2 {
+  text-align: center;
+}
+
+#add-resources li {
+  display: inline-block;
+  border: 3px solid black;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-family: "Fahkwang", Times, courier, sans-serif;
+  font-size: 18pt;
+  background-color: #f3694c;
+}
+
+#logo {
+  height: 180px;
+  width: 380px;
+}
+
+footer img {
+  width: 35px;
+  height: 35px;
+}
+
+a:hover {
+  text-decoration: none;
+}
